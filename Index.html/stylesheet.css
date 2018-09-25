@@ -1,0 +1,114 @@
+body{
+    background-image: url("metallic.jpg");
+    background-repeat: no repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top{
+    text-align:center;
+    font-family:cursive;
+    font-size: xx-large;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#profilepic{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    margin-left: 12%;  
+    margin-top:6%;
+}
+
+#bio{
+    background-color:rgb(235, 225, 225);  opacity: 0.7;
+                border:solid;
+    float:top;
+    float:right;
+    margin: 25px;
+    margin-top: -10%;
+    margin-right: 10%;
+    text-align: center;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.favorite{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#tv{
+    border: 2px solid lightgray; opacity: 0.7;
+    grid-column: 1;
+    background: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
+
+#head1{
+    font-style: italic;
+    text-align: center;
+}
+#movie{
+    border: 2px solid lightgray; opacity: 0.7;
+    grid-column: 2;
+    background:rgb(241, 222, 196);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 7px;
+
+}
+#head2{
+    font-style: italic;
+    text-align: center;
+}
+
+#music{
+    border: 2px solid lightgray; opacity: 0.7;
+    grid-column: 3;
+    background: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+
+}
+
+#head3{
+    font-style: italic;
+    text-align: center;
+}
+
+.linkedin{
+    margin-top: 7%;
+    margin-left: 37.5%;
+}
+
+.alert {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+
+.alert{
+    font-family:arial;
+}
